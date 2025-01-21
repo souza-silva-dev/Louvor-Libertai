@@ -133,6 +133,19 @@ iframe{
     width: 150px;
 height: 100px;}
 
+.rodape{text-align: end;
+margin-right: 40px;}
+
+.voltar-inicio{font-size: 24px;
+font-family: 'Times New Roman', Times, serif;
+color: darkslateblue;
+}
+
+
+
+
+
+
 
 @media(max-width: 425px){
 
@@ -192,6 +205,15 @@ a {
 
 iframe{width: 150px}
 
+.rodape{text-align: center;
+margin-bottom: 40px;
 
 
+}
+
+.voltar-inicio{font-size: 20px;
+color: darkcyan;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 }
