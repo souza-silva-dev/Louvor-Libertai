@@ -1,0 +1,94 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{background-color: azure}
+
+.container{display: grid;
+grid-template-areas: "Josi Anny Pr-Kelton Jenifer Kétanny Sarah" ;
+grid-template-columns: repeat(6 auto);
+
+
+}
+
+
+
+.Josi{grid-area: Josi;
+  
+
+}
+
+.Anny{grid-area: Anny;
+
+}
+
+.Pr-Kelton{grid-area: Pr-Kelton;
+}
+
+.Jenifer{grid-area: Jenifer;
+}
+
+.Kétanny{grid-area: Kétanny;
+}
+
+.Sarah{grid-area: Sarah;
+
+}
+
+ul{list-style: none;}
+
+.Josi{
+    font-size: 20px;
+   border-style: double; 
+   margin: 5px;
+   border-radius: 10px;
+}
+
+.Anny{ font-size: 20px;
+    border-style: double; 
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.Pr-Kelton{ font-size: 20px;
+    border-style: double;
+    margin: 5px;
+    border-radius: 10px; }
+
+.Jenifer{ font-size: 20px;
+    border-style: double;
+    margin: 5px;
+    border-radius: 10px; }
+
+.Kétanny{ font-size: 20px;
+    border-style: double; 
+    margin: 5px;
+    border-radius: 10px;}
+
+.Sarah{font-size: 20px;
+    border-style: double;
+    margin: 5px;
+    border-radius: 10px;}
+
+.titulo{font-size: 40px;
+text-align: center;
+color: darkcyan;
+
+}
+
+.container li{margin: 15px;
+color: blue;
+font-weight: 700;
+font-family: cursive;
+}
+
+
+@media(max-width: 425px){
+    .container{display: block;
+        background-color: wheat;
+    }
+
+   
+}
+
