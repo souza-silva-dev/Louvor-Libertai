@@ -138,13 +138,7 @@ iframe{
     width: 150px;
 height: 100px;}
 
-.rodape{text-align: end;
-margin-bottom: 50px;
-margin-right: 30px;}
 
-.voltar-inicio{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blueviolet;
-font-size: 24px;}
 
 @media(max-width: 425px){
 
@@ -185,12 +179,5 @@ a {
     font-size: 24px;
 }
 
-.rodape{text-align: center;
-    margin-bottom: 30px;
-    }
-    
-    .voltar-inicio{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color:sienna;
-    font-size: 20px;
-}
+
 }
