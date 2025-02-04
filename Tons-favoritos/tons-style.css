@@ -15,8 +15,7 @@ grid-template-columns: repeat(6 auto);
 
 
 .Josi{grid-area: Josi;
-  
-
+ 
 }
 
 .Anny{grid-area: Anny;
@@ -43,6 +42,7 @@ ul{list-style: none;}
    border-style: double; 
    margin: 5px;
    border-radius: 10px;
+   
 }
 
 .Anny{ font-size: 20px;
@@ -80,7 +80,8 @@ color: darkcyan;
 .container li{margin: 15px;
 color: blue;
 font-weight: 700;
-font-family: cursive;
+font-family:'Times New Roman', Times, serif;
+
 }
 
 

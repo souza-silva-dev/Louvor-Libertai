@@ -54,10 +54,9 @@ a:hover {
 
 .container-musicas {
     display: grid;
-    grid-template-areas: "musica1 musica2 musica3 musica4 muscica5 musica6 musica7"
-    ;
+    grid-template-areas: "musica1 musica2 musica3 musica4"; 
 
-    grid-template-columns: repeat(7 1fr);
+    grid-template-columns: repeat(4 1fr);
 
 }
 
@@ -68,6 +67,7 @@ a:hover {
 .musica1 {
     grid-area: musica1;
     grid-template-columns: auto;
+ 
 
 }
 
@@ -87,27 +87,8 @@ a:hover {
 .musica4 {
     grid-area: musica4;
     grid-template-columns: auto;
+
 }
-
-.musica5 {
-    grid-area: musica5;
-    grid-template-columns: auto;
-}
-
-.musica6 {
-    grid-area: musica6;
-    grid-template-columns: auto;
-}
-
-.musica7 {
-    grid-area: musica7;
-    grid-template-columns: auto;
-  
-}
-
-
-
-
 
 
 .musica1 {
@@ -135,26 +116,10 @@ a:hover {
 .musica4 {
     margin: 30px;
     padding: 30px;
+   
 
 }
 
-.musica5 {
-    margin: 30px;
-    padding: 30px;
-
-}
-
-.musica6 {
-    margin: 30px;
-    padding: 30px;
-
-}
-
-.musica7 {
-    margin: 30px;
-    padding: 30px;
-
-}
 
 .nome {
     margin-top: 10px;
