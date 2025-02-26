@@ -2,6 +2,10 @@ html {
     background-color: azure;
 }
 
+.romario{text-align: center;
+font-size: 36px;
+color: blue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 * {
     margin: 0;
     padding: 0;
