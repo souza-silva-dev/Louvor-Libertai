@@ -1,3 +1,5 @@
+.aniversario{color: blue;}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -78,7 +80,7 @@ ul {
 
 
 html {
-    background-color: aquamarine;
+    background-color: rgb(219, 211, 198);
    
 }
 
@@ -112,7 +114,7 @@ html {
     }
 
     html {
-        background-color:gainsboro;
+        background-color:blanchedalmond;
     }
 
     .menu {

@@ -2,10 +2,7 @@ html {
     background-color: azure;
 }
 
-.romario{text-align: center;
-font-size: 36px;
-color: blue;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,9 +17,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     margin: 20px;
 }
 
-img {
-    border-radius: 50%;
-}
+
 
 .container {
     display: flex;
@@ -34,7 +29,10 @@ img {
 
 
 .logo {
+
     width: 150px;
+  border-radius: 50px;
+
 }
 
 ul {
@@ -58,9 +56,9 @@ a:hover {
 
 .container-musicas {
     display: grid;
-    grid-template-areas: "musica1 musica2"; 
+    grid-template-areas: "musica1 musica2 musica3 nusica4"; 
 
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(4, auto);
 
 }
 
