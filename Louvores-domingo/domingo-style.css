@@ -47,8 +47,8 @@ a {
 }
 
 a:hover {
-    background-color: darkcyan;
-    color: white;
+    
+    color: brown;
     border-radius: 20%;
     transition: 0.6s;
 }
@@ -74,11 +74,7 @@ color: brown;
     grid-area: musica1;
     grid-template-columns: auto;
     
-    
-    
-   
- 
-
+  
 }
 
 
@@ -181,9 +177,6 @@ margin-top: 10px;
     .container {
         display: flex;
         padding: 40px;
-
-
-
 
     }
 
