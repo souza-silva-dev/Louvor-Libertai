@@ -53,6 +53,10 @@ a:hover {
     transition: 0.6s;
 }
 
+.link{font-size: 60px;
+color: brown;
+
+}
 
 .container-musicas {
     display: grid;
