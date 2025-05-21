@@ -6,12 +6,29 @@ box-sizing: border-box;
 html{background-color: azure}
 
 .container{display: grid;
-grid-template-areas: "Josi Anny Pr-Kelton Jenifer Kétanny Sarah" ;
-grid-template-columns: repeat(6 auto);
+grid-template-areas: "Josi Anny Pr-Kelton Jenifer Kétanny Sarah adicionarmusica" ;
+grid-template-columns: repeat(7 auto);
 
 
 }
 
+.comentario{ 
+    text-align: center;
+   
+}
+
+.digitarmusica{width: 150px;
+    height: 25px;
+}
+
+button{
+height: 25px;
+margin-top: 20px;
+font-size: 10px;
+background-color: blue;
+color: white;
+
+}
 
 
 .Josi{grid-area: Josi;
@@ -34,6 +51,8 @@ grid-template-columns: repeat(6 auto);
 .Sarah{grid-area: Sarah;
 
 }
+
+.adicionarmusica{grid-area: adicionarmusica;}
 
 ul{list-style: none;}
 
@@ -67,6 +86,11 @@ ul{list-style: none;}
     border-radius: 10px;}
 
 .Sarah{font-size: 20px;
+    border-style: double;
+    margin: 5px;
+    border-radius: 10px;}
+
+.adicionarmusica{font-size: 20px;
     border-style: double;
     margin: 5px;
     border-radius: 10px;}
