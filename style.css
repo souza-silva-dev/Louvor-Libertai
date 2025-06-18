@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-
+.titulo{color: white;}
 
 .escala {
     grid-area: escala;
@@ -63,7 +63,7 @@ ul {
     border: solid 3px blue;
     text-align: center;
     width: 100vw;
-    color: black;
+    color: white;
     font-weight: 900;
 
 
@@ -73,14 +73,15 @@ ul {
     font-size: 32px;
     border: solid 3px blue;
     text-align: center;
-    color: crimson;
-    font-weight: 700;
+    color: gold;
+    font-weight: 400;
+   
 
 }
 
 
 html {
-    background-color: rgb(219, 211, 198);
+    background-color: black;
    
 }
 
@@ -90,7 +91,7 @@ html {
 
     .titulo {
         font-size: 26px;
-        color: maroon;
+        color: white;
     }
 
     .header {
@@ -105,16 +106,17 @@ html {
     }
 
     .head-tabela th {
-        color: black;
+        color: white;
         font-size: 16px;
     }
 
     .corpo-tabela td {
         font-size: 16px;
+    
     }
 
     html {
-        background-color:blanchedalmond;
+        background-color:black;
     }
 
     .menu {
