@@ -63,7 +63,7 @@ ul {
     border: solid 3px blue;
     text-align: center;
     width: 100vw;
-    color: white;
+    color: aliceblue;
     font-weight: 900;
 
 
@@ -89,6 +89,10 @@ html {
 
 @media(max-width: 425px) {
 
+html{background-color: black;}
+
+.titulo{color: white;}
+
     .titulo {
         font-size: 26px;
         color: white;
@@ -112,6 +116,7 @@ html {
 
     .corpo-tabela td {
         font-size: 16px;
+        color: gold;
     
     }
 
