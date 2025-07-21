@@ -40,6 +40,7 @@ img {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 700;
+    
 }
 
 a:hover {
@@ -51,6 +52,9 @@ a:hover {
 
 a {
     text-decoration: none;
+    color: white;
+    font-size: 22px;
+   
 }
 
 
@@ -135,7 +139,7 @@ html{background-color: black;}
     }
 
     .menu a {
-        color: tomato;
+        color: #25D366;
         font-weight: 800;
     }
 }
