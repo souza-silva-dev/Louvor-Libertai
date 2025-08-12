@@ -24,6 +24,8 @@
       "Ame louvar a Deus",
       "Gaste tempo estudando as músicas",
       "Se dedique em aprender",
+      "Tenha um bom dia com Jesus",
+
       
    
     ];
