@@ -89,7 +89,10 @@ font-family:'Times New Roman', Times, serif;
 
 
 
-a{text-decoration: none;}
+a{text-decoration: none;
+    color: inherit;
+
+}
 
 @media(max-width: 425px){
     .container{display: block;
