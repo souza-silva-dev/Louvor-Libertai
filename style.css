@@ -97,12 +97,27 @@ ul {
 
 }
 
+.piscar {
+  animation: piscar 2s infinite;
+  color:springgreen;
+  font-weight: 800;
+}
+
+@keyframes piscar {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  40%, 30% {
+    opacity: 0;
+  }
+}
+
+
 
 html {
     background-color: black;
    
 }
-
 
 
 @media(max-width: 425px) {
