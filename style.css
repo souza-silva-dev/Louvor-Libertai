@@ -97,11 +97,7 @@ ul {
 
 }
 
-.piscar {
-  animation: piscar 2s infinite;
-  color:springgreen;
-  font-weight: 800;
-}
+
 
 @keyframes piscar {
   0%, 50%, 100% {
