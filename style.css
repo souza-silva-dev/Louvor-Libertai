@@ -97,7 +97,9 @@ ul {
 
 }
 
-
+.piscar{
+    color: aliceblue;
+}
 
 @keyframes piscar {
   0%, 50%, 100% {
