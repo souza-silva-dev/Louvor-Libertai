@@ -98,7 +98,7 @@ ul {
 }
 
 .piscar{
-    color: aliceblue;
+    color: white;
 }
 
 @keyframes piscar {
@@ -172,4 +172,7 @@ html{background-color: black;}
         font-weight: 800;
     }
     
+    .piscar{
+        color: white;
+    }
 }
