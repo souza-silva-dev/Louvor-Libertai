@@ -33,6 +33,8 @@
       document.getElementById("conselho").textContent = conselhos[aleatorio];
     }
 
+    alert("Atenção!!! Mesa da comunhão dia 06")
+
 
 
     
